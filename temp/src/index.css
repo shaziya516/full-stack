@@ -1,0 +1,103 @@
+.recommended{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap:10px;
+
+}
+
+.recommended #strong{
+    font-size: 18px;
+    font-weight: 500;
+}
+.recommended .recommendedoptions{
+    display: flex;
+    gap: 6px;
+}
+.recommended .recommendedoptions button{
+    padding: 4px;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: white;
+    border: 0.5px solid #828283;
+    font-size: 12px;
+    font-weight: 400;
+    color: black;
+}
+
+.recommended .recommendedoptions button:hover{
+
+    transition: 0.3s;
+}
+
+.result{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.card{
+    width: 240px;
+
+    cursor: pointer;
+    padding: 10px;
+    border: 0.2px solid #d1d1d1;
+}
+
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    transition: 0.3s;
+}
+.card .uppercard{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .uppercard  img{
+    width: 150px;
+    height: 150px;
+}
+
+.card .lowercard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.card .lowercard .shoename{
+    font-weight: 700;
+}
+
+.card .lowercard .shoereview{
+    display: flex;
+    align-items: center;
+    color: #828283;
+    font-size: 16px;
+    gap: 10px;
+    
+}
+.rating-star{
+    font-size: 18px;
+    color: rgb(255, 168, 54);
+}
+.card .lowercard .shoeprice del{
+    color: red;
+}
+.card .lowercard .shoeprice {
+    color: green;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .lowercard .shoeprice div{
+    gap: 5px;
+    display: flex;
+}
